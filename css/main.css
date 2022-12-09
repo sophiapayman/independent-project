@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+
+.hero-banner {
+    width: 100%;
+    height: 85vh;
+    background-image: url('../images/banners/tbz-redbanner.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-color: black;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.hero-banner {
+    width: 100%;
+    height: 70vh;
+    background-image: url('../images/banners/cupcake-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: pink;
+}
