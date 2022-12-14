@@ -35,6 +35,33 @@ html {
     background-color: pink;
 }
 
+header img {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin: auto;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  font-family: lust-script-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #CF4F68;
+  padding-top: 2em;
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-family: lust-script-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #CF4F68;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -63,18 +90,26 @@ nav ul li a:hover {
   grid-template-rows: 1fr 1fr;
 }
 
+.menubody {
+  background-color: pink;
+}
 
 .menu-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.the-menu-list {
   background-color: pink;
+  margin: auto;
 }
 
 .menu-grid div h3 {
   text-align: center;
-  font-family: sans-serif;
-  color: white;
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .menu-grid div img {
@@ -89,4 +124,29 @@ nav ul li a:hover {
   padding-left: auto;
   padding-right: auto;
   justify-content: center;
+}
+
+.about-us-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2rem;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+}
+
+.about-text p {
+  font-size: 1.5em;
+}
+
+.about-img {
+  max-height: 50%;
+}
+
+.menu-grid img {
+  transition: all .2s ease-in-out;
+}
+
+.menu-grid img:hover {
+  transform: scale(110%);
 }
